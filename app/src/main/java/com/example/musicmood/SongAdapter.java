@@ -37,7 +37,7 @@ Song song=songs.get(position);
 holder.binding.textTitle.setText(song.title);
 holder.binding.textArtist.setText(song.artist);
 
-        Uri albumArtUri= ContentUris.withAppendedId(Uri.parse("conent://media/external/audio/albumart"),song.albumId);
+        Uri albumArtUri= ContentUris.withAppendedId(Uri.parse("content://media/external/audio/albumart"),song.albumId);
         Glide.with(holder.binding.getRoot().getContext())
                 .load(albumArtUri)
                 .circleCrop()

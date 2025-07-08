@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:autoMirrored="true"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="960"
+    android:viewportHeight="960"
+    android:tint="#000000">
+
+    <!-- Reversed arrow path ("<") -->
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M639,880L710,809L381,480L710,151L639,80L239,480L639,880Z"/>
+
+    <!-- Vertical bar ("|") now on the left -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M120,80L120,880L200,880L200,80Z"/>
+</vector>
