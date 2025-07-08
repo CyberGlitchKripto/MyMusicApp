@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#1E1E90"
+                android:endColor="#800080"
+                android:angle="270" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:src="@drawable/music_curve_pattern"
+            android:gravity="center" />
+    </item>
+</layer-list>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MusicMood</string>
+    <string name="button">Button</string>
+    <string name="get_started">Get started</string>
+    <string name="be_positive_be_yourself">Be positive, be yourself</string>
+    <string name="background_image">Background image</string>
+    <string name="explore_artit">Explore Artit</string>
+    <string name="explore_artist">explore artist</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist">Artist</string>
+</resources>
