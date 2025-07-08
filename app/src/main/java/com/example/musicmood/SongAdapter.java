@@ -53,7 +53,7 @@ holder.binding.textArtist.setText(song.artist);
 
     @Override
     public int getItemCount() {
-        return Songs.size();
+        return songs.size();
     }
 
     public class SongViewholder extends RecyclerView.ViewHolder {
