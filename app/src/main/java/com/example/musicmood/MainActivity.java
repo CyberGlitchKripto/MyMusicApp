@@ -100,6 +100,9 @@ private final ActivityResultLauncher<String> requestPermissionLauncher=
 
     @Override
     public void onItemClick(int position) {
-       // Intent intent=new Intent(this,)
+        Intent intent=new Intent(this, PlayerActivity.class);
+        intent.putParcelableArrayListExtra("songList",new ArrayList<>(songList));
+        intent.putExtra("position",position);
+        startActivity(intent);
     }
 }
